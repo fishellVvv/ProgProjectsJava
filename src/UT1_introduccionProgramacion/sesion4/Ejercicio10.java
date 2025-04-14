@@ -6,7 +6,7 @@ public class Ejercicio10 {
         // 10: Conversión de long a int y de float a int
 
         // Declaramos un número de tipo long (entero largo)
-        long numeroLargo = 1_000_000_000_000L; // 1,000 millones
+        long numeroLargo = 1_000_000_000_000L; // 1 billón
 
         // Convertimos de long a int (puede haber pérdida por desbordamiento si el número es muy grande)
         int numeroEntero = (int) numeroLargo; // Explícito (si lo indicamos) - Puede haber desbordamiento
