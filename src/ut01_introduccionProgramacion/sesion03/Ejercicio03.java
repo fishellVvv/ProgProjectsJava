@@ -1,6 +1,6 @@
 package ut01_introduccionProgramacion.sesion03;
 
-public class Ejercicio3 {
+public class Ejercicio03 {
     public static void main(String[] args) {
 
         // 3️⃣ Declara una variable edad e imprime si la persona es mayor de edad (>= 18) o menor de edad (< 18).

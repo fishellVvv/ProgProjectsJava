@@ -1,6 +1,6 @@
 package ut01_introduccionProgramacion.sesion02;
 
-public class Ejercicio1 {
+public class Ejercicio01 {
     public static void main(String[] args) {
 
         /*

@@ -1,6 +1,6 @@
 package ut01_introduccionProgramacion.sesion03;
 
-public class Ejercicio7 {
+public class Ejercicio07 {
     public static void main(String[] args) {
 
         // 7️⃣ Declara tres variables x = 10, y = 20, z = 30. Compara x + y con z utilizando operadores relacionales.

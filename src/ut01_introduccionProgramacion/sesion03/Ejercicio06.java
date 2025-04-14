@@ -1,6 +1,6 @@
 package ut01_introduccionProgramacion.sesion03;
 
-public class Ejercicio6 {
+public class Ejercicio06 {
     public static void main(String[] args) {
 
         // 6️⃣ Modifica el programa anterior y evalúa también (5 > 3) || (10 > 20). Explica los resultados obtenidos.

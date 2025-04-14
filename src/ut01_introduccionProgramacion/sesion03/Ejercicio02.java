@@ -1,6 +1,6 @@
 package ut01_introduccionProgramacion.sesion03;
 
-public class Ejercicio2 {
+public class Ejercicio02 {
     public static void main(String[] args) {
 
         // 2️⃣ Declara dos variables a = 25 y b = 7. Realiza todas las operaciones aritméticas entre ellas e imprime los resultados.

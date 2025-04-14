@@ -2,7 +2,7 @@ package ut01_introduccionProgramacion.sesion03;
 
 import java.util.Scanner;
 
-public class Ejercicio8 {
+public class Ejercicio08 {
     public static void main(String[] args) {
 
         // 8️⃣ Crea un programa que pida al usuario dos números y evalúe si son múltiplos (num1 % num2 == 0).

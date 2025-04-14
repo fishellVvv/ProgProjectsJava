@@ -2,7 +2,7 @@ package ut01_introduccionProgramacion.sesion03;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
     public static void main(String[] args) {
 
         // 4️⃣ Crea un programa que reciba dos números y determine cuál es mayor, menor o si son iguales.

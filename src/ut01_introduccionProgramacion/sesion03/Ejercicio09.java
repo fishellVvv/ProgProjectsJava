@@ -2,7 +2,7 @@ package ut01_introduccionProgramacion.sesion03;
 
 import java.util.Scanner;
 
-public class Ejercicio9 {
+public class Ejercicio09 {
     public static void main(String[] args) {
 
         // 9️⃣ Escribe un código que reciba un número e indique si es par o impar usando el operador módulo (%).
