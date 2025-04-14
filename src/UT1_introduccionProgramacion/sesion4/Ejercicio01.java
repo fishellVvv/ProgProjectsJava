@@ -1,6 +1,6 @@
 package UT1_introduccionProgramacion.sesion4;
 
-public class Ejercicio1 {
+public class Ejercicio01 {
     public static void main(String[] args) {
 
         // 1: Conversión implícita de int a double
