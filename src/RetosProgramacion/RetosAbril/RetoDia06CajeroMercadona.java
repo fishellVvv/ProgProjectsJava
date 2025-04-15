@@ -27,10 +27,7 @@ public class RetoDia06CajeroMercadona {
          */
 
         Scanner scn = new Scanner(System.in);
-        int precioProducto = 0;
-        int precioConIVA = 0;
-        int dineroRecibido = 0;
-        int elCambio = 0;
+        int precioProducto, precioConIVA, dineroRecibido, elCambio;
         int[] cambioValores = {50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
         String[] cambioEtiquetas = {"billetes de 500 €", "billetes de 200 €", "billetes de 100 €", "billetes de 50 €", "billetes de 20 €", "billetes de 10 €", "billetes de 5 €",
                 "monedas de 2 €", "monedas de 1 €", "monedas de 50 cént.", "monedas de 20 cént.", "monedas de 10 cént.", "monedas de 5 cént.", "monedas de 2 cént.", "monedas de 1 cént."};
