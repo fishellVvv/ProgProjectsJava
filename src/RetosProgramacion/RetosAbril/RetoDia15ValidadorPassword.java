@@ -43,7 +43,7 @@ public class RetoDia15ValidadorPassword {
                 System.out.println("❌ La contraseña no puede contener la palabra 'git' (en ningún formato)");
             } else {
                 System.out.println("\n✅ Contraseña válida. ¡Buen trabajo!");
-                passwordValida = true; // Al introducir una contraseña válida pasamos la variable a tru para que salga del while
+                passwordValida = true; // Al introducir una contraseña válida pasamos la variable a true para que salga del while
             }
         }
         scn.close();
