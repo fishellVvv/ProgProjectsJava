@@ -16,7 +16,7 @@ public class RetoDia11Adivinanza {
 
         Scanner scn = new Scanner(System.in);
         String palabraSecreta = "programar";
-        String palabraUsuario = "";
+        String palabraUsuario;
         int numeroIntentos = 5;
 
         System.out.println("Adivina la palabra secreta (tienes 5 intentos)."); // texto inicial
