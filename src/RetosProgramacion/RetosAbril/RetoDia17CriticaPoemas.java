@@ -42,6 +42,8 @@ public class RetoDia17CriticaPoemas {
                 return;
             }
 
+            verso = verso.toLowerCase(); // Algunas comprobaciones requieren pasar el verso a minúsculas para poder comparar con otras palabras
+
             contadorPalabras = verso.split(" ").length; // Primera comprobación, las palabras del verso
             if (contadorPalabras == 5) {
                 puntuacion += 1; // Lola da un punto por cada verso con 5 palabras
@@ -51,13 +53,11 @@ public class RetoDia17CriticaPoemas {
                 System.out.println("Lola: ¡Demasiadas palabras para mi gusto!");
             }
 
-            if (verso.toLowerCase().contains("z")) { // Segunda comprobación, letras "z" en el verso
+            if (verso.contains("z")) { // Segunda comprobación, letras "z" en el verso
                 puntuacion += 1; // Lola da un punto por cada verso que contenga al menos una letra "z"
             } else {
                 System.out.println("Lola: ¡Le falta un toque de 'z'!");
             }
-
-            verso = verso.toLowerCase(); // A partir de aquí las comprobaciones requieren pasar el verso a minúsculas para poder comparar con otras palabras
 
             for (int j = 0; j < verso.length(); j++) { // Tercera comprobación, mas vocales que consonantes, recorremos la frase letra a letra en un bucle
                 char letra = verso.charAt(j);
