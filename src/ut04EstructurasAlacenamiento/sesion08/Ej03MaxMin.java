@@ -35,6 +35,5 @@ public class Ej03MaxMin {
          */
 
         System.out.println("El número mínimo es: " + Arrays.stream(numeros).min().getAsInt());
-
     }
 }
