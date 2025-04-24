@@ -26,7 +26,7 @@ public class RetoDia17CriticaPoemas {
         String primeraPalabra = "";
         String ultimaPalabra = "";
 
-        System.out.println("Bienvenido poeta, escribe a continuación una cuarteta (poema de cuatro versos) y nuestra crítica Lola te lo analizará."); // Saludo y instrucciones
+        System.out.println("Bienvenido poeta, escribe a continuación una cuarteta (poema de cuatro versos) y nuestra crítica Lola te lo analizará."); // Saludo e instrucciones
         System.out.println("-Lola: Veamos que tienes para mi:");
 
         for (int i=0; i<4; i++) { // Iniciamos un bucle para recorrer los 4 versos
