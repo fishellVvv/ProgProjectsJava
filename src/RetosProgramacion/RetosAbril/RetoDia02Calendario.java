@@ -19,8 +19,9 @@ public class RetoDia02Calendario {
         …
          */
 
-        String[] mesesAnio = new String[] {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"}; // definimos los meses del año
-        int diasMes = 0;
+        String[] mesesAnio = new String[] {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio",
+            "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"}; // definimos los meses del año
+        int diasMes;
         int diasAnio = 2; // el día del año empieza en 2 porque 2025 comienza en miércoles
         int diasSemana = 2; // al igual que el año, la primera semana comienza en miércoles
         int numSemana = 0;
@@ -46,15 +47,15 @@ public class RetoDia02Calendario {
             for (int k=1; k<=diasMes; k++) { // bucle que recorre los días de cada mes
 
                 System.out.print(k + "\t"); // imprimimos el número del día
-
                 diasAnio++;
+
                 if (diasAnio % 7 == 0) { // cada 7 días imprimimos la semana y un salto de línea
                     numSemana++;
                     System.out.println("Semana " + numSemana);
                 }
             }
 
-            diasSemana = diasAnio % 7; // recalculamos el número de días de la semana que hay recorridos ya antes de empezar el nuevo mes.
+            diasSemana = diasAnio % 7; // recalculamos el número de días de la semana que hay recorridos ya antes de empezar el nuevo mes
 
             System.out.println(); // separación entre los meses
         }
