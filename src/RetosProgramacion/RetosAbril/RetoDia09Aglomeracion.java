@@ -60,8 +60,6 @@ public class RetoDia09Aglomeracion {
                 } else if (i%5==0) {
                     System.out.println("Día: " + i);
                     System.out.println("Clase de Master");
-                } else { // en caso de no tener clase no lo imprimo
-                    continue;
                 }
             }
         } catch (InputMismatchException e){ // revisamos que el valor introducido sea un entero
