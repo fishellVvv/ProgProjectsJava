@@ -38,10 +38,9 @@ public class RetoDia05Exclamaciones {
             System.out.println("Tu frase no tiene exclamaciones sin cerrar. ヽ(´▽`)/");
         } else if (conteoExclamaciones < 0) { // Si se han cerrado más de las que se han abierto el conteo será negativo
             System.out.println("Tu frase tiene " + (conteoExclamaciones * -1) + " exclamaciones sin abrir. (ಥ_ಥ)");
-        } else { // Si se han abierto más de las que se han cerrado el conteo será negativo
+        } else { // Si se han abierto más de las que se han cerrado el conteo será positivo
             System.out.println("Tu frase tiene " + conteoExclamaciones + " exclamaciones sin cerrar. (；￣Д￣)");
         }
-
         scn.close();
     }
 }
