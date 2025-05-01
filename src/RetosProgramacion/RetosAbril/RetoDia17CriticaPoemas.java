@@ -37,7 +37,7 @@ public class RetoDia17CriticaPoemas {
                     throw new Exception("Verso vacío");
                 }
             } catch (Exception e) { // En caso de un verso vacío Lola se enfada y termina el programa
-                System.out.println("\nLola: ¡Un poema incompleto! Me niego a seguir leyendo semejante abandono lírico.");
+                System.out.println("\n-Lola: ¡Un poema incompleto! Me niego a seguir leyendo semejante abandono lírico.");
                 scn.close(); // Cerramos el scanner antes de irnos
                 return;
             }
@@ -48,15 +48,15 @@ public class RetoDia17CriticaPoemas {
             if (contadorPalabras == 5) {
                 puntuacion += 1; // Lola da un punto por cada verso con 5 palabras
             } else if (contadorPalabras < 5) {
-                System.out.println("Lola: ¡Pocas palabras para mi gusto!");
+                System.out.println("-Lola: ¡Pocas palabras para mi gusto!");
             } else {
-                System.out.println("Lola: ¡Demasiadas palabras para mi gusto!");
+                System.out.println("-Lola: ¡Demasiadas palabras para mi gusto!");
             }
 
             if (verso.contains("z")) { // Segunda comprobación, letras "z" en el verso
                 puntuacion += 1; // Lola da un punto por cada verso que contenga al menos una letra "z"
             } else {
-                System.out.println("Lola: ¡Le falta un toque de 'z'!");
+                System.out.println("-Lola: ¡Le falta un toque de 'z'!");
             }
 
             for (int j = 0; j < verso.length(); j++) { // Tercera comprobación, mas vocales que consonantes, recorremos la frase letra a letra en un bucle
@@ -81,23 +81,23 @@ public class RetoDia17CriticaPoemas {
         if (vocalesConsonantes > 0) {
             puntuacion += 1; // Lola da un punto al poema si tiene mas vocales que consonantes
         } else {
-            System.out.println("Lola: Más consonantes que vocales, ¡qué aspereza lírica!");
+            System.out.println("-Lola: Más consonantes que vocales, ¡qué aspereza lírica!");
         }
 
         if (primeraPalabra.equals(ultimaPalabra)) {
             puntuacion += 1; // Lola da un punto al poema si la primera palabra y la última coinciden
         } else {
-            System.out.println("Lola: No me engañas, eso no rima con el principio.");
+            System.out.println("-Lola: No me engañas, eso no rima con el principio.");
         }
 
-        System.out.printf("\nLola: Mi veredicto final es: %d/10 puntos poéticos.\n", puntuacion); // Mostramos la puntuación final
+        System.out.printf("\n-Lola: Mi veredicto final es: %d/10 puntos poéticos.\n", puntuacion); // Mostramos la puntuación final
 
         switch (puntuacion) { // Damos una respuesta personalizada dependiendo de la puntuación obtenida
-            case 10 -> System.out.println("¿Cómo lo has hecho?, no lo habrás generado con IA ¿no?");
-            case 8, 9 -> System.out.println("¡Excelente!, estaré atenta a tu carrera literaria.");
-            case 6, 7 -> System.out.println("Me hayo notablemente sorprendida, ¡muy bien hecho!");
-            case 4, 5 -> System.out.println("No está nada mal para ser un aficionado de la literatura.");
-            default -> System.out.println("Tampoco esperaba mucho, no me sorprende.");
+            case 10 -> System.out.println("-Lola: ¿Cómo lo has hecho?, no lo habrás generado con IA ¿no?");
+            case 8, 9 -> System.out.println("-Lola: ¡Excelente!, estaré atenta a tu carrera literaria.");
+            case 6, 7 -> System.out.println("-Lola: Me hayo notablemente sorprendida, ¡muy bien hecho!");
+            case 4, 5 -> System.out.println("-Lola: No está nada mal para ser un aficionado de la literatura.");
+            default -> System.out.println("-Lola: Tampoco esperaba mucho, no me sorprende.");
         }
 
         scn.close(); // Cerramos al salir
