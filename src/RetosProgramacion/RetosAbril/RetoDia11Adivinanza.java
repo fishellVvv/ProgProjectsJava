@@ -28,11 +28,10 @@ public class RetoDia11Adivinanza {
             if(palabraUsuario.equals(palabraSecreta)) { // en caso de acertarla felicitamos y salimos del bucle
                 System.out.println("Palabra correcta.\n ¡You Win!");
                 break;
-            }else if (i < 5) { // si falla comprobamos si quedan intentos y se lo indicamos al usuario
+            }else if (i < numeroIntentos) { // si falla comprobamos si quedan intentos y se lo indicamos al usuario
                 System.out.println("Palabra incorrecta, te quedan " + (numeroIntentos - i) + " intentos.");
             } else System.out.println("Palabra incorrecta.\n ¡Game Over!"); // si falla y no le quedan intentos pues game over
         }
-
         scn.close();
     }
 }
