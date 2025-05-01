@@ -38,7 +38,7 @@ public class RetoDia03ElTiempo {
                 + fechaActual.getDayOfMonth() + " de "
                 + fechaActual.getMonth().getDisplayName(TextStyle.FULL, Locale.forLanguageTag("es-ES")) + " de "
                 + fechaActual.getYear());
-        System.out.println(" y que son las " + LocalTime.now().getHour() + ":" + LocalTime.now().getMinute() + ":" + LocalTime.now().getSecond() + ":");
+        System.out.println(" y que son las " + LocalTime.now().getHour() + ":" + LocalTime.now().getMinute() + ":" + LocalTime.now().getSecond() + " :");
 
         System.out.println("Te informo de que han pasado " + fechaActual.getDayOfYear() + " días dede el inicio del año (que son " + (LocalTime.now().getHour() + (fechaActual.getDayOfYear()*24)) + " horas).");
 
