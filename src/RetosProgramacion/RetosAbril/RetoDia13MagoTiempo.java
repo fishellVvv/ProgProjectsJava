@@ -3,7 +3,7 @@ package RetosProgramacion.RetosAbril;
 import java.util.Scanner;
 
 public class RetoDia13MagoTiempo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         /*
         ¿Alguna vez te has levantado con la necesidad de crear un cronómetro? Tranquilo, no eres el único. Hoy vas a poder hacer tu sueño realidad.
@@ -35,16 +35,12 @@ public class RetoDia13MagoTiempo {
         numeroSegundos = scn.nextInt();
         System.out.println("---------");
 
-        try {
-            for (int i = 1; i <= numeroSegundos; i++) {
-                horas = i / 3600;
-                minutos = (i % 3600) / 60;
-                segundos = i % 60;
-                Thread.sleep(1000);
-                System.out.printf("%02d:%02d:%02d\n", horas, minutos, segundos);
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        for (int i = 1; i <= numeroSegundos; i++) { // iteramos hasta contar todos los segundos
+            horas = i / 3600;
+            minutos = (i % 3600) / 60;
+            segundos = i % 60;
+            Thread.sleep(1000); // pausa la ejecución 1 segundo
+            System.out.printf("%02d:%02d:%02d\n", horas, minutos, segundos); // hh:mm:ss
         }
 
         System.out.println("---------\n");
