@@ -64,6 +64,8 @@ public class RetoDia09Aglomeracion {
             }
         } catch (InputMismatchException e){ // revisamos que el valor introducido sea un entero
             System.out.println("Error: Debes introducir un número entero.");
+            scn.close(); // cerramos al salir
         }
+        scn.close(); // cerramos al salir
     }
 }
