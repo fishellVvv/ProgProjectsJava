@@ -63,7 +63,7 @@ public class RetoDia07Caracoles {
         if (posRayo > posGary) {
             System.out.print("\uD83C\uDFC6 Rayo McSnail ha ganado la copa!!!"); // mensaje final en caso de victoria de Rayo
         } else if (posRayo < posGary) {
-            System.out.print("\uD83C\uDFC6 Rayo McSnail ha ganado la copa!!!"); // mensaje final en caso de victoria de Gary
+            System.out.print("\uD83C\uDFC6 Gary el Caracol ha ganado la copa!!!"); // mensaje final en caso de victoria de Gary
         } else {
             System.out.print("\uD83E\uDD1D Increíble! Tenemos un empate!!! Todo se decidirá en la siguiente ronda!"); // mensaje final en caso de empate
         }
