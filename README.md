@@ -7,12 +7,12 @@ Repositorio de ejercicios y prácticas correspondientes a la asignatura de **Pro
 - **`.idea/`**  
   Archivos de configuración del proyecto generados por IntelliJ IDEA.
 
-- **`src/PreworkProg/`**  
-  Ejercicios introductorios previos a las unidades principales. Pensados para practicar sintaxis básica y lógica general.
-
 - **`src/RetosProgramacion/RetosAbril/`**  
   Retos para practicar lógica de programación con Java.
   - Retos 30 días Abril
+
+- **`src/PreworkProg/`**  
+  Ejercicios introductorios previos a las unidades principales. Pensados para practicar sintaxis básica y lógica general.
 
 - **`src/ut01IntroduccionProgramacion/`**  
   Unidad 1: introducción a la programación en Java.
