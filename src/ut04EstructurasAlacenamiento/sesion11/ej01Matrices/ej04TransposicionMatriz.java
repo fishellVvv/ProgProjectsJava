@@ -1,4 +1,4 @@
-package ut04EstructurasAlacenamiento.sesion11.arrayListArrayList;
+package ut04EstructurasAlacenamiento.sesion11.ej01Matrices;
 
 public class ej04TransposicionMatriz {
     public static void main(String[] args) {
