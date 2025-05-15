@@ -6,8 +6,8 @@ public class ej01SumaMatrices {
         /*
         1. Suma de Dos Matrices:
 
-        Crea dos matrices de 3x3 y suma sus elementos.
-        Imprime el resultado de la suma.
+         Crea dos matrices de 3x3 y suma sus elementos.
+         Imprime el resultado de la suma.
          */
 
         int[][] matriz1 = {
