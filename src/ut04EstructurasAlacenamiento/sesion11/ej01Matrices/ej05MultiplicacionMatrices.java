@@ -19,13 +19,13 @@ public class ej05MultiplicacionMatrices {
         };
         int f1 = matriz1.length;
         int c1 = matriz1[0].length;
-        int f2 = matriz2.length;
+    //  int f2 = matriz2.length;
         int c2 = matriz2[0].length;
         int[][] matrizResultado = new int[f1][c2];
 
-        if (c1 != f2) {
-            System.out.println("No se pueden multiplicar estas matrices.");
-        } else {
+    //  if (c1 != f2) {
+    //      System.out.println("No se pueden multiplicar estas matrices.");
+    //  } else {
             for (int i = 0; i < f1; i++) {
                 for (int j = 0; j < c2; j++) {
                     for (int k = 0; k < c1; k++) {
@@ -40,6 +40,6 @@ public class ej05MultiplicacionMatrices {
                 }
                 System.out.println();
             }
-        }
+    //  }
     }
 }
