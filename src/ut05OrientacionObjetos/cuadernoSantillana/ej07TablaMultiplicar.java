@@ -23,7 +23,7 @@ public class ej07TablaMultiplicar {
         }
 
         for (int i = 0; i < 10; i++) {
-            System.out.printf("%,d * %,d = %,d\n", i+1, num, (i+1)*num);
+            System.out.printf("%,2d * %,d = %,2d%n", i+1, num, (i+1)*num);
         }
     }
 }
