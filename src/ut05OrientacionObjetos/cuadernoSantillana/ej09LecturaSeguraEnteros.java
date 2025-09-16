@@ -22,6 +22,6 @@ public class ej09LecturaSeguraEnteros {
             return;
         }
 
-        System.out.println("El número introducido es válido.");
+        System.out.printf("El número introducido (%,d) es válido.", num);
     }
 }
