@@ -10,10 +10,9 @@ public class ej08DivisionControlErrores {
         Scanner sc = new Scanner(System.in);
 
         String entrada;
-        int num1, num2;
-        double resultado;
+        int num1, num2, resultado;
 
-        System.out.print("Introduce el primer número: ");
+        System.out.print("Introduce el primer número entero: ");
         entrada = sc.nextLine();
 
         entrada = entrada.replace(',','.');
@@ -25,7 +24,7 @@ public class ej08DivisionControlErrores {
             return;
         }
 
-        System.out.print("Introduce el segundo número: ");
+        System.out.print("Introduce el segundo número entero: ");
         entrada = sc.nextLine();
 
         entrada = entrada.replace(',','.');
@@ -39,7 +38,7 @@ public class ej08DivisionControlErrores {
 
         try {
             resultado = num1 / num2;
-            System.out.printf("El resultado de la división es: %.2f", resultado);
+            System.out.printf("El resultado de la división es: %,d", resultado);
         } catch (ArithmeticException e) {
             System.out.println("Error: no se puede dividir entre 0.");
         }
