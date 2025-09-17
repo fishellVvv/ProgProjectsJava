@@ -3,7 +3,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 // 13.Números pares de un array
 // Llena un array con 20 números aleatorios del 1 al 100 y muestra solo los pares.
 
-public class ej13ParesArray {
+public class Ej13ParesArray {
     public static void main(String[] args) {
         int[] nums = new int[20];
 

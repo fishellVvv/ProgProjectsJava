@@ -5,7 +5,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 
 import java.util.Scanner;
 
-public class ej08DivisionControlErrores {
+public class Ej08DivisionControlErrores {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

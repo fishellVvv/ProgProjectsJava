@@ -6,7 +6,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 
 import java.util.Scanner;
 
-public class ej02ConversionTipos {
+public class Ej02ConversionTipos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -5,7 +5,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 
 import java.util.Scanner;
 
-public class ej07TablaMultiplicar {
+public class Ej07TablaMultiplicar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

@@ -7,7 +7,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ej01AreaCirculo {
+public class Ej01AreaCirculo {
     private static final double PI = Math.PI;
 
     public static void main(String[] args) {

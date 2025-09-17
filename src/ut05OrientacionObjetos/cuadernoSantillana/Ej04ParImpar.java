@@ -1,19 +1,18 @@
 package ut05OrientacionObjetos.cuadernoSantillana;
 
-// 9. Lectura segura de enteros
-// Usa Scanner para pedir un entero y captura el error si el usuario introduce un valor no numérico.
+// 4. Par o impar
+// Pide un número entero y muestra si es par o impar usando if.
 
 import java.util.Scanner;
 
-public class ej09LecturaSeguraEnteros {
+public class Ej04ParImpar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String entrada;
         int num;
 
         System.out.print("Introduce un numero entero: ");
-        entrada = sc.nextLine();
+        String entrada = sc.nextLine();
 
         try {
             num = Integer.parseInt(entrada);
@@ -22,6 +21,10 @@ public class ej09LecturaSeguraEnteros {
             return;
         }
 
-        System.out.printf("El número introducido (%,d) es válido.", num);
+        if (num % 2 == 0){
+            System.out.println("Es par.");
+        } else {
+            System.out.println("Es impar.");
+        }
     }
 }

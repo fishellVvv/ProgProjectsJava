@@ -7,7 +7,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ej12ListaNombres {
+public class Ej12ListaNombres {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

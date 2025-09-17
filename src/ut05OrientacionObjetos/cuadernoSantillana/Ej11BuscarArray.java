@@ -5,7 +5,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 
 import java.util.Scanner;
 
-public class ej11BuscarArray {
+public class Ej11BuscarArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

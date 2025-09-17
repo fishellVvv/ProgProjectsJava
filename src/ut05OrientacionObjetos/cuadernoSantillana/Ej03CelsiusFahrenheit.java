@@ -6,7 +6,7 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 
 import java.util.Scanner;
 
-public class ej03CelsiusFahrenheit {
+public class Ej03CelsiusFahrenheit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
