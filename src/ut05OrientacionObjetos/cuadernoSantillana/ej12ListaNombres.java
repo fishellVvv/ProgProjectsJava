@@ -23,7 +23,7 @@ public class ej12ListaNombres {
                     nombres.add(entrada);
                     System.out.printf("%s añadido a la lista.%n", entrada);
                 } else {
-                    System.out.printf("%s no añadido.%n", entrada);
+                    System.out.printf("%s no añadido (ya existe).%n", entrada);
                 }
             }
         } while (!"fin".equalsIgnoreCase(entrada));
