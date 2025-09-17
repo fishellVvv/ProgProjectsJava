@@ -6,8 +6,6 @@ package ut05OrientacionObjetos.cuadernoSantillana;
 import java.util.Scanner;
 
 public class Ej17Primo {
-    private static final Scanner SC = new Scanner(System.in);
-
     public static void main(String[] args) {
         int n = leerEntero();
         System.out.println( esPrimo(n) ? "Es primo" : "No es primo" );
