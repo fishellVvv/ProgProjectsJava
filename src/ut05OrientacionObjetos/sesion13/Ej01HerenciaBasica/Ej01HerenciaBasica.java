@@ -20,12 +20,9 @@ public class Ej01HerenciaBasica {
         vehiculos[2] = c3;
 
         for (int i = 0; i < vehiculos.length; i++) {
-            System.out.println();
-            System.out.println("Nombre: " + vehiculos[i].getNombre() );
-            System.out.print("VelMáxima: ");
-            System.out.println( vehiculos[i].calcularVelocidadMaxima() );
-            System.out.print("Consumo: ");
-            System.out.println( vehiculos[i].consumo() );
+            System.out.printf("%nNombre: %s", vehiculos[i].getNombre() );
+            System.out.printf("%nVelMáxima: %.2f Km/h", vehiculos[i].calcularVelocidadMaxima() );
+            System.out.printf("%nConsumo: %.2f l/100Km%n", vehiculos[i].consumo() );
         }
     }
 }

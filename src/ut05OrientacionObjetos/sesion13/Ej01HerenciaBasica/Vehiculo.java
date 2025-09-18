@@ -7,7 +7,7 @@ public class Vehiculo {
         this.nombre = nombre;
     }
 
-    public String getNombre() { return nombre; }
+    public String getNombre() { return this.nombre; }
 
     public double calcularVelocidadMaxima() {
         System.out.print("No implementado ");
