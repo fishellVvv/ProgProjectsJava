@@ -14,10 +14,7 @@ public class Ej01HerenciaBasica {
         Vehiculo b2 = new Bicicleta("Orbea_Terra", 12);
         Vehiculo c3 = new Coche("Audi_A6", 204);
 
-        Vehiculo[] vehiculos = new Vehiculo[3];
-        vehiculos[0] = c1;
-        vehiculos[1] = b2;
-        vehiculos[2] = c3;
+        Vehiculo[] vehiculos = {c1, b2, c3};
 
         for (int i = 0; i < vehiculos.length; i++) {
             System.out.printf("%nNombre: %s", vehiculos[i].getNombre() );
