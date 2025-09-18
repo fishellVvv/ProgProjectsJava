@@ -12,6 +12,7 @@ public class CuentaAhorro extends Cuenta {
 
     @Override
     public String mostrarDatos() {
-        return "Titular: " + titular + " Saldo: " + saldo + " € Interés anual: " + interesAnual + " %";
+        return "Titular: " + this.titular + " Saldo: " + this.saldo +
+                " € Interés anual: " + this.interesAnual + " %";
     }
 }

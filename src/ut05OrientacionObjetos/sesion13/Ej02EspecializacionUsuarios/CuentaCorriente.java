@@ -12,6 +12,7 @@ public class CuentaCorriente extends Cuenta {
 
     @Override
     public String mostrarDatos() {
-        return "Titular: " + titular + " Saldo: " + saldo + " € Límite descubierto: " + limiteDescubierto + " €";
+        return "Titular: " + this.titular + " Saldo: " + this.saldo +
+                " € Límite descubierto: " + this.limiteDescubierto + " €";
     }
 }
