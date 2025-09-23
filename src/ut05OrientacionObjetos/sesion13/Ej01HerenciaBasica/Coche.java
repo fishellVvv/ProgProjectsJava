@@ -8,16 +8,13 @@ public class Coche extends Vehiculo {
         this.caballos = caballos;
     }
 
-    public int getCaballos() { return this.caballos; }
-
     @Override
     public double calcularVelocidadMaxima() {
-        final double K = 38.8;
-        return K * Math.cbrt(this.caballos);
+        return this.caballos * 2.0;
     }
 
     @Override
     public double consumo() {
-        return 3.8 + 0.12 * Math.pow(this.caballos, 0.7);
+        return this.caballos * 0.05;
     }
 }

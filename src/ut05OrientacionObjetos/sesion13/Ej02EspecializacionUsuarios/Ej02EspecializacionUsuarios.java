@@ -12,11 +12,11 @@ import java.util.List;
 
 public class Ej02EspecializacionUsuarios {
     public static void main(String[] args) {
-        Cuenta c1 = new CuentaAhorro("Juan", 6050.00, 1.5);
-        Cuenta c2 = new CuentaAhorro("Luisa", 6350.00, 3.2);
-        Cuenta c3 = new CuentaCorriente("Andrés", 145.00, 2000.00);
-
-        List<Cuenta> cuentas = List.of(c1, c2, c3);
+        List<Cuenta> cuentas = List.of(
+                new CuentaAhorro("Juan", 6050.00, 1.5),
+                new CuentaAhorro("Luisa", 6350.00, 3.2),
+                new CuentaCorriente("Andrés", 145.00, 2000.00)
+        );
 
         for (Cuenta c : cuentas) {
             System.out.println( c.mostrarDatos() );

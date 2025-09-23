@@ -10,16 +10,20 @@ package ut05OrientacionObjetos.sesion13.Ej01HerenciaBasica;
 
 public class Ej01HerenciaBasica {
     public static void main(String[] args) {
-        Vehiculo c1 = new Coche("SEAT_Leon", 110);
-        Vehiculo b2 = new Bicicleta("Orbea_Terra", 12);
-        Vehiculo c3 = new Coche("Audi_A6", 204);
+        Vehiculo[] vehiculos = {
+                new Coche("SEAT_Leon", 110),
+                new Bicicleta("Orbea_Terra", 12),
+                new Coche("Audi_A6", 204)
+        };
 
-        Vehiculo[] vehiculos = {c1, b2, c3};
-
-        for (int i = 0; i < vehiculos.length; i++) {
-            System.out.printf("%nNombre: %s", vehiculos[i].getNombre() );
-            System.out.printf("%nVelMáxima: %.2f Km/h", vehiculos[i].calcularVelocidadMaxima() );
-            System.out.printf("%nConsumo: %.2f l/100Km%n", vehiculos[i].consumo() );
+        for (Vehiculo v : vehiculos) {
+            System.out.printf("%nNombre: %s", v.getNombre() );
+            System.out.printf("%nVelMáxima: %.2f Km/h", v.calcularVelocidadMaxima() );
+            if (v instanceof Coche) {
+                System.out.printf("%nConsumo: %.2f l/100Km%n", v.consumo());
+            } else if (v instanceof Bicicleta) {
+                System.out.printf("%nConsumo: %.2f Kcal/h%n", v.consumo());
+            }
         }
     }
 }

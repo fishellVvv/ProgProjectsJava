@@ -8,15 +8,13 @@ public class Bicicleta extends Vehiculo{
         this.numeroMarchas = numeroMarchas;
     }
 
-    public int getNumeroMarchas() { return this.numeroMarchas; }
-
     @Override
     public double calcularVelocidadMaxima() {
-        return 18 + 2.2 * this.numeroMarchas;
+        return this.numeroMarchas * 5.0;
     }
 
     @Override
     public double consumo() {
-        return 0;
+        return this.numeroMarchas * 10.0;
     }
 }
