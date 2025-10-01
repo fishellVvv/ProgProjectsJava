@@ -1,4 +1,4 @@
-package ut05OrientacionObjetos.sesion14.Bigotitos;
+package ut05OrientacionObjetos.sesion15.Bigotitos;
 
 public class Email implements Enviable{
     private String direccion;
