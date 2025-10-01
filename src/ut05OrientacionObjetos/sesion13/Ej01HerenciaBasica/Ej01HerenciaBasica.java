@@ -19,10 +19,10 @@ public class Ej01HerenciaBasica {
         for (Vehiculo v : vehiculos) {
             System.out.printf("%nNombre: %s", v.getNombre() );
             System.out.printf("%nVelMáxima: %.2f Km/h", v.calcularVelocidadMaxima() );
-            if (v instanceof Coche) {
-                System.out.printf("%nConsumo: %.2f l/100Km%n", v.consumo());
-            } else if (v instanceof Bicicleta) {
-                System.out.printf("%nConsumo: %.2f Kcal/h%n", v.consumo());
+            if (v instanceof Coche c) {
+                System.out.printf("%nConsumo: %.2f l/100Km%n", c.consumo());
+            } else if (v instanceof Bicicleta b) {
+                System.out.printf("%nConsumo: %.2f Kcal/h%n", b.consumo());
             }
         }
     }
